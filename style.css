@@ -1,0 +1,104 @@
+/* Reset y estilos base */
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .seccionprimera {
+    background-image: url('./img/bgHeader.png'); 
+    height: 83vh;
+    /* background-position-y: 250px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .tituloprimera{
+    color: #fe8e49;
+    font-size: 90px;
+  }
+
+  /* Subtítulo */
+  .subtituloprimera{
+    color: #000000; /* Negro */
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-top: -20px; /* Subirlo un poco si está muy separado */
+    margin-bottom: 30px;
+  }
+
+  .botonprimera{
+    background-color: #fe8e49;
+    color: #ffffff;
+    margin-top: 100px;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 25px;
+  }
+  
+  .botonprimero:hover {
+    background-color: #d46c2c;
+  }
+
+  /* seccion segunda */
+
+  .seccionsegunda{
+    /* padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #fff; */
+    display: flex;
+  }
+  
+  .contenidosegunda {
+    flex: 1;
+  }
+  
+  /* Título */
+  .titulosegunda {
+    font-size: 40px;
+    color: #fe8e49;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  /* Párrafo */
+  .parrafosegunda {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  /* Botón */
+  .botonsegunda {
+    background-color: #fe8e49;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  
+  .botonsegunda:hover {
+    background-color: #d46c2c;
+  }
+  
+  /* Imagen */
+  .imagensergunda {
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+ 
+  
+  
