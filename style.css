@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 /* Reset y estilos base */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "Roboto Slab", serif;
   }
   
   .seccionprimera {
@@ -25,7 +26,7 @@
   /* Subtítulo */
   .subtituloprimera{
     color: #000000; /* Negro */
-    font-size: 38px;
+    font-size: 36px;
     text-transform: uppercase;
     
   }
@@ -143,4 +144,65 @@
  .seccioncuarta{
   background-image: url(img/bgDown.png);
   height: 68vh;
+  zoom: 1.4;
  }
+
+ .izquierdacuarta{
+  width: 50%;
+  padding: 200px 0px 0px 183px;
+ }
+
+ .titulocuarta{
+  font-size: 20px;
+  color: #fe8e49;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  line-height: 1.2;
+ }
+
+ .parrafocuarta{
+  font-size: 10px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  }
+.botoncuarta {
+  background-color: #fe8e49;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: capitalize;
+  }
+
+ /* seccionfooter */
+  .clasequinta{
+    background-color: #fe8e49;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    padding: 60px;
+  }
+
+  footer{
+    background-color: #fe8e49;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 80px #d46c2c;
+    border-top: 6px solid #000000;
+    border: 5px solid transparent;
+  }
+
+  h6{
+    margin-bottom: 40px;
+  }
+
+  ul{
+    list-style: none;
+  }
+  
