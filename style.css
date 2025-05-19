@@ -339,7 +339,11 @@
         padding: 4px 17px;
         font-size: 11px;
       }
-
+      
+      .seccioncuarta{
+        background-position-x: 50%;
+        height: 40vh;
+      }
       .izquierdacuarta{
         padding-top: 17px;
         margin-left: 0px;
@@ -356,5 +360,87 @@
         font-size: 8px;
         padding: 7px 12px;
       }
+
+      .clasequinta{
+      padding: 40px;
+      font-size: 12px;
+      }
+
+      footer{
+        font-size: 10px;
+        padding: 17px 0px 17px 0px;
+      }
     }
-  
+    @media(max-width: 480px){
+      .tituloprimera{
+        font-size: 77px;
+      } 
+      .subtituloprimera{
+        font-size: 24px;
+      }
+      .botonprimera{
+       padding: 7px 21px;
+       font-size: 18px;
+      }
+      /* SECCIONSEGUNDA */
+      .seccionsegunda{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .izquierdasegundo {
+        width: 100%;
+      }
+      h2{
+        font-size: 21px;
+      }
+      .parrafosegunda{
+        font-size: 12px;
+        
+      }
+
+      /* SECCIONTERCERA */
+
+      .contenedortercero{
+        width: 100%;
+      }
+
+      .secciontercera {
+        display: flex;
+        flex-direction: column-reverse;
+        
+     }
+     .derechatercera{
+       width: 100%;
+     }
+     .imagentercera{
+      width: 100%;
+      padding: 20px;
+     }
+
+     /* SECCIONCUARTA */
+    
+     .izquierdacuarta{
+      width: 72%;
+      margin-left: 0;
+      padding: 32px 0px 10px 40px;
+     }
+
+     .parrafocuarta{
+      font-size: 11px;
+      text-align: justify;
+     }
+
+     /* FOOTER */
+    
+    .clasequinta {
+      padding: 21px;
+      font-size: 11px;
+    }
+
+    footer{
+     font-size: 10px;
+     padding: 10px 0px 17px 0px;
+    }
+
+  }
