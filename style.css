@@ -180,6 +180,7 @@
   .clasequinta{
     background-color: #fe8e49;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     color: #fff;
     padding: 60px;
@@ -436,11 +437,18 @@
     .clasequinta {
       padding: 21px;
       font-size: 11px;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 60px;
+
     }
 
     footer{
      font-size: 10px;
      padding: 10px 0px 17px 0px;
+    }
+
+    h6{
+      margin-bottom: 16px;
     }
 
   }
